@@ -1,3 +1,6 @@
+# ides
+.vscode
+
 # Logs
 logs
 *.log
@@ -59,3 +62,8 @@ typings/
 
 # next.js build output
 .next
+
+# Arquivos seguros
+.cache
+dist
+build
