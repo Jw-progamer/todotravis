@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-dir build"
   },
-  "author": "Bruno Nardini",
+  "author": "Josias Wando",
   "license": "ISC",
   "dependencies": {
     "classnames": "^2.2.6",
