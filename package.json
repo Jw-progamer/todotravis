@@ -1,15 +1,16 @@
 {
   "name": "NoteJS",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projetos de TODO do curos de react da udemy",
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --out-dir build"
   },
   "author": "Josias Wando",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "classnames": "^2.2.6",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
