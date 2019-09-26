@@ -7,10 +7,26 @@ import "./settings.scss";
 
 const themes = [
   { key: "defalt", label: "Padrão" },
-  { key: "ace", label: "Spade Ace", navBar: { backgroundColor: "#cc0000" } },
-  { key: "jack", label: "Heat Jack", navBar: { backgroundColor: "#1a1aff" } },
-  { key: "queen", label: "Cub Queen", navBar: { backgroundColor: "#33ff33" , color: "#212121"} },
-  { key: "king", label: "Diamont King", navBar: { backgroundColor: "#ffd11a" , color: "#212121"} },
+  {
+    key: "ace",
+    label: "Spade Ace",
+    navBar: { backgroundColor: "#cc0000" }
+  },
+  {
+    key: "jack",
+    label: "Heat Jack",
+    navBar: { backgroundColor: "#1a1aff" }
+  },
+  {
+    key: "queen",
+    label: "Cub Queen",
+    navBar: { backgroundColor: "#33ff33", color: "#212121" }
+  },
+  {
+    key: "king",
+    label: "Diamont King",
+    navBar: { backgroundColor: "#ffd11a", color: "#212121" }
+  },
   {
     key: "light",
     label: "Light",
