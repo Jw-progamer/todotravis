@@ -4,12 +4,13 @@ import "./new-note.scss";
 
 class NewNote extends React.Component {
   state = {
-    text: ""
+    text: "",
+    complete: false
   };
 
   render() {
     const { onAddNote } = this.props;
-    const { text } = this.state;
+    const { text, complete } = this.state;
 
     return (
       <div className="new-note">

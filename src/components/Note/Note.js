@@ -28,7 +28,9 @@ class Note extends React.Component {
     return (
       <div className="note">
         {isEditing ? (
-          <input
+          <div>
+            <input type="checkbox"></input>
+            <input
             type="text"
             className="note__input"
             defaultValue={note.text}
@@ -36,6 +38,7 @@ class Note extends React.Component {
               this.input = c;
             }}
           />
+          </div>
         ) : (
           <span className="note__text">{note.text}</span>
         )}
